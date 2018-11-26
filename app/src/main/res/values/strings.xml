@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Dream App</string>
+
+    <string-array name="blood_group_array">
+        <item>Select Blood group</item>
+        <item>A positive</item>
+        <item>A negative</item>
+        <item>B positive</item>
+        <item>B negative</item>
+        <item>AB positive</item>
+        <item>AB negative</item>
+        <item>O positive</item>
+        <item>O negative</item>
+    </string-array>
+
+    <string-array name="user_type_array">
+        <item>Select User Type</item>
+        <item>Volunteer</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string-array name="department_list_array">
+        <item>Select a Department</item>
+        <item>EEE</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>BME</item>
+        <item>MSE</item>
+        <item>CE</item>
+        <item>URP</item>
+        <item>BECM</item>
+        <item>ARCH</item>
+        <item>ME</item>
+        <item>IEM</item>
+        <item>LE</item>
+        <item>TE</item>
+        <item>ESE</item>
+        <item>CHEMICAL</item>
+        <item>MECHAT</item>
+
+    </string-array>
+</resources>

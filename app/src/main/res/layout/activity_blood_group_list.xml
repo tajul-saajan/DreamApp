@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".BloodGroupList">
+
+    <Button
+        android:id="@+id/a_positive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a positive" />
+
+    <Button
+        android:id="@+id/a_negaitive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a negaitive" />
+
+    <Button
+        android:id="@+id/b_positive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B positive" />
+
+    <Button
+        android:id="@+id/b_negaitive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="b negaitive" />
+
+    <Button
+        android:id="@+id/ab_positive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ab positive" />
+
+    <Button
+        android:id="@+id/ab_negaitive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ab negaitive" />
+
+    <Button
+        android:id="@+id/o_positive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="o positive" />
+
+    <Button
+        android:id="@+id/o_negaitive_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="o negaitive" />
+</LinearLayout>

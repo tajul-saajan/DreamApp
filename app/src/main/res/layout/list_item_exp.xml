@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblListItemId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textSize="16dip"
+            tools:text="baal" />
+
+        <TextView
+            android:id="@+id/lblListItemPhn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textSize="16dip"
+            tools:text="Phone" />
+
+        <TextView
+            android:id="@+id/lblListItemBldGrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:textColor="#f50b0b"
+            android:textSize="16dp"
+            tools:text="bloodGrp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/is_compleated_rq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="#32cd2b"
+            android:textSize="24dip"
+            tools:text="done" />
+
+    </LinearLayout>
+
+</LinearLayout>

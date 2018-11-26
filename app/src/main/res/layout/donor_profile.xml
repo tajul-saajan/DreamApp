@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbackground"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="50dp"
+                android:text="Miftakhul Hudha"
+                android:textColor="@color/coloWhite"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/roll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Android Developer"
+                android:textColor="@color/coloWhite" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/blood_grp_donor_prf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:padding="@dimen/padding_8"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            tools:text="O positive" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/coloWhite"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="@color/colorBlueGrey700"
+                android:textSize="20sp" />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:columnCount="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="Name"
+                    android:textColor="@color/colorBlueGrey600" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_gravity="right"
+                    tools:text="Miftakhul Hudha"
+                    android:textColor="@color/colorBlueGrey600" />
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:text="Contact"
+                    android:textColor="@color/colorBlueGrey600" />
+
+                <TextView
+                    android:id="@+id/contact_donor"
+                    android:layout_gravity="right"
+                    android:text="081575061297"
+                    android:textColor="@color/colorBlueGrey600" />
+
+                <TextView
+                    android:text="Department"
+                    android:textColor="@color/colorBlueGrey600" />
+
+                <TextView
+                    android:id="@+id/dept_donor"
+                    android:layout_gravity="right"
+                    android:textColor="@color/colorBlueGrey600"
+                    tools:text="CSE" />
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/call_donor_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/button_rounded"
+                android:minWidth="150dp"
+                android:text="call"
+                android:textColor="@color/coloWhite" />
+
+            <Button
+                android:id="@+id/donation_history"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/button_rounded"
+                android:minWidth="150dp"
+                android:text="donation history"
+                android:textColor="@color/coloWhite" />
+
+            <Button
+                android:id="@+id/update_info_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/button_rounded"
+                android:minWidth="150dp"
+                android:text="update info"
+                android:textColor="@color/coloWhite" />
+
+            <Button
+                android:id="@+id/delete_donor_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/button_rounded"
+                android:minWidth="150dp"
+                android:text="remove donor"
+                android:textColor="@color/coloWhite" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saajan.dreamapp.SignInActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/teabackground">
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha=".4"
+            android:background="@drawable/background_fade">
+
+        </FrameLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_left_16"
+                android:layout_marginTop="@dimen/margin_top_16"
+                android:layout_marginRight="@dimen/margin_right_16"
+                android:layout_marginBottom="@dimen/margin_bottom_16"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/user_type_sp"
+                    style="@style/Font_family_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="24dp"
+                    android:entries="@array/user_type_array"
+                    android:padding="16dp"
+                    android:textColor="@color/white">
+
+                </Spinner>
+
+                <EditText
+                    android:id="@+id/roll_login"
+                    style="@style/Font_family_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_right_16"
+                    android:layout_marginTop="@dimen/margin_top_8"
+                    android:layout_marginRight="@dimen/margin_right_16"
+                    android:layout_marginBottom="@dimen/margin_top_8"
+                    android:background="@drawable/edit_style"
+                    android:drawableLeft="@drawable/ic_person"
+                    android:drawablePadding="@dimen/padding_16"
+                    android:hint="Roll No"
+                    android:inputType="number"
+                    android:maxLength="30"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_16"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/text_20" />
+
+
+                <EditText
+                    android:id="@+id/passw_login"
+                    style="@style/Font_family_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_right_16"
+                    android:layout_marginTop="@dimen/margin_top_8"
+                    android:layout_marginRight="@dimen/margin_right_16"
+                    android:layout_marginBottom="@dimen/margin_top_8"
+                    android:background="@drawable/edit_style"
+                    android:drawableLeft="@drawable/password"
+                    android:drawablePadding="@dimen/padding_16"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="@dimen/padding_16"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="@dimen/text_20" />
+
+
+                <Button
+                    android:id="@+id/log_in_bt"
+                    style="@style/Font_family_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_right_16"
+                    android:layout_marginTop="@dimen/margin_top_8"
+                    android:layout_marginRight="@dimen/margin_right_16"
+                    android:layout_marginBottom="@dimen/margin_top_8"
+                    android:background="@drawable/red_style"
+                    android:text="LOGIN"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_20" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

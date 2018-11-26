@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saajan.dreamapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dream_activity_home"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".FrontActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".RequestBloodActivity"
+            android:label="Request Blood" />
+        <activity
+            android:name=".SignInActivity"
+            android:label="Sign In"
+            android:noHistory="true" />
+        <activity
+            android:name=".AdminHome"
+            android:label="Admin Home" />
+        <activity
+            android:name=".UserHome"
+            android:label="User Home" />
+        <activity
+            android:name=".BloodGroupList"
+            android:label="Select A Blood Group" />
+        <activity
+            android:name=".RequestListActivity"
+            android:label=" All Request History" />
+        <activity
+            android:name=".VolunteerListActivity"
+            android:label="Volunteer List" />
+        <activity
+            android:name=".AddDonorActivity"
+            android:label="Add Donor Form"
+            android:noHistory="true" />
+        <activity
+            android:name=".AddAdminActivity"
+            android:label="ADD DREAM MODERATOR"
+            android:noHistory="true" />
+        <activity android:name=".AdapterActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".DonorProfile"
+            android:label="Donor Profile" />
+        <activity
+            android:name=".CurrentReqListActivity"
+            android:label="All Requests" />
+        <activity android:name=".RequestProfile"></activity>
+    </application>
+
+</manifest>

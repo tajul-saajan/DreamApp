@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminHome">
+
+
+    <Button
+        android:id="@+id/change_password_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="change password" />
+
+    <Button
+        android:id="@+id/admin_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="admin list" />
+
+    <Button
+        android:id="@+id/volunteer_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volunteer List" />
+
+    <Button
+        android:id="@+id/donor_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Donor List" />
+
+    <Button
+        android:id="@+id/request_list_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request list" />
+
+    <Button
+        android:id="@+id/donation_history_all_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="all donation history" />
+
+    <Button
+        android:id="@+id/add_admin_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add admin" />
+
+    <Button
+        android:id="@+id/add_volunteer_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add volunteer" />
+
+    <Button
+        android:id="@+id/add_donor_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add donor" />
+
+    <Button
+        android:id="@+id/sign_out_bt_admin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign out" />
+
+</LinearLayout>

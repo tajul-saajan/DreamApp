@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/donor_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="24dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/donor_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            tools:capitalize="words"
+            tools:text="name"
+            tools:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/roll_no_donor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="roll no" />
+
+        <TextView
+            android:id="@+id/blood_group_tv_donor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_red_dark"
+            tools:text="blood grp"
+            tools:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/last_deonated_donor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#27c620"
+            tools:text="last Donated x days ago"
+            tools:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

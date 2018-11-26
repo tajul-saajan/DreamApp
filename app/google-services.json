@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "434925869722",
+    "firebase_url": "https://dreamapp-f32fc.firebaseio.com",
+    "project_id": "dreamapp-f32fc",
+    "storage_bucket": "dreamapp-f32fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434925869722:android:746f9a344984570d",
+        "android_client_info": {
+          "package_name": "com.example.saajan.dreamapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434925869722-l0h630jm6u5i4je981r5la5gp05hk4s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saajan.dreamapp",
+            "certificate_hash": "51a6827558ada5e12606e9a85260b281405b5b63"
+          }
+        },
+        {
+          "client_id": "434925869722-ocm6h4jj94mugk264lt0ovd9kr36q85m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saajan.dreamapp",
+            "certificate_hash": "f8289a67c46711fe4d206231cdce4078ae4ad2fd"
+          }
+        },
+        {
+          "client_id": "434925869722-j1ndk251883cr7fulv4sgkhk059u09ar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8SxtQ5Ggpyi37z2uEIrKx97D4CdQ2MiM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434925869722-j1ndk251883cr7fulv4sgkhk059u09ar.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

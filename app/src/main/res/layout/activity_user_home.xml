@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context=".UserHome">
+
+    <Button
+        android:id="@+id/home_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="home" />
+
+    <Button
+        android:id="@+id/add_request_bt_usr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add request" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:textSize="32sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="MY Request" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginVertical="24dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pName"
+            android:textSize="24sp"
+            tools:text="Patient Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/bloodGroupPt"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Blood Group"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/isFullfilled"
+            android:textSize="24sp"
+            tools:text="Is Fullfilled : True"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/date"
+            android:textSize="24sp"
+            tools:text="4-11-18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</LinearLayout>
